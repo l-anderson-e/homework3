@@ -1,5 +1,3 @@
-import java.util.Collections;
-
 public class PatientTester {
     
     public static void main(String[] args){
@@ -7,9 +5,9 @@ public class PatientTester {
         System.out.print(manager);
 
         manager.addPatient(new Patient(1, 200));
-        manager.addPatient(new Patient(2,400));
+        manager.addPatient(new Patient(2, 400));
         manager.addPatient(new Patient(3, 600));
-        manager.addPatient(new Patient(4,800));
+        manager.addPatient(new Patient(4, 800));
 
         System.out.println(manager);
 
